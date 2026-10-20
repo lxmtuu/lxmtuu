@@ -106,7 +106,7 @@
       </td>
       <td width="50%" align="left">
         <b>💬 Ask me about</b><br/>
-        Next.js · Express · PostgreSQL · Piano visualization
+        C# / .NET · Next.js · Express · PostgreSQL · Piano VFX
       </td>
     </tr>
   </table>
@@ -161,21 +161,23 @@
   <summary><b>🛠 Tech Stack</b></summary>
   <br/>
   <p align="center">
-    <img src="https://skillicons.dev/icons?i=js,ts,html,css,react,nextjs,nodejs,express,postgres,prisma,git,github,figma,vscode,mongodb,tailwind&perline=9" alt="Tech stack icons"/>
+    <img src="https://skillicons.dev/icons?i=cs,dotnet,py,powershell,js,ts,html,css,react,nextjs,nodejs,express,postgres,prisma,mongodb,tailwind,git,github,figma,vscode&perline=10" alt="Tech stack icons"/>
   </p>
   <br/>
   <table>
     <tr>
+      <td align="center"><b>Desktop &amp; Graphics</b></td>
       <td align="center"><b>Frontend</b></td>
       <td align="center"><b>Backend</b></td>
       <td align="center"><b>Database</b></td>
-      <td align="center"><b>Tools</b></td>
+      <td align="center"><b>Scripting &amp; Tools</b></td>
     </tr>
     <tr>
+      <td align="center">C# · .NET 10 · WPF · Direct3D 11 · HLSL</td>
       <td align="center">React · Next.js · Tailwind CSS · JavaScript · TypeScript · HTML5 · CSS3</td>
       <td align="center">Node.js · Express · REST API · Prisma</td>
       <td align="center">PostgreSQL · MongoDB</td>
-      <td align="center">Git · GitHub · Figma · VS Code</td>
+      <td align="center">Python · PowerShell · Inno Setup · Git · GitHub · Figma · VS Code</td>
     </tr>
   </table>
 </details>
@@ -192,11 +194,11 @@
     <tr>
       <td align="center" width="200"><b>2024 – Present</b></td>
       <td align="left">
-        <b>Fullstack Developer · Freelance / Personal Projects</b><br/>
+        <b>Fullstack &amp; Desktop Developer · Freelance / Personal Projects</b><br/>
         Vietnam (Remote)<br/>
-        • Designed and developed fullstack applications from concept to deployment<br/>
-        • Built web-based MIDI piano platforms, hotel booking systems, and music instrument e-commerce sites<br/>
-        • Tech stack: Next.js, Express, PostgreSQL, Prisma, JavaScript, TypeScript
+        • Designed and developed desktop &amp; fullstack web applications from concept to deployment<br/>
+        • Built Keyflow (desktop piano performance &amp; concert VFX studio with Direct3D 11 GPU shaders), web-based MIDI piano platforms, hotel booking systems, and music instrument e-commerce sites<br/>
+        • Tech stack: C#, .NET 10, WPF, HLSL, Python, PowerShell, Next.js, Express, PostgreSQL, Prisma, JavaScript, TypeScript
       </td>
     </tr>
   </table>
@@ -214,14 +216,15 @@
   <table>
     <tr>
       <td width="33%" align="center">
-        <a href="https://github.com/lxmtuu/KeyFlow">
+        <a href="https://github.com/lxmtuu/PianoPath">
           <img src="https://raw.githubusercontent.com/lxmtuu/lxmtuu/arena/8616ef60-lxmtuu/assets/project-keyflow.jpg" alt="KeyFlow preview" width="100%"/>
         </a>
         <br/><br/>
-        <b>🎹 KeyFlow</b><br/>
-        <sub>Desktop piano visualization · MIDI · real-time note rendering</sub><br/>
+        <b>🎹 KeyFlow (PianoPath)</b><br/>
+        <sub>Keyflow · Piano Performance &amp; Concert VFX Studio</sub><br/>
+        <sub>C# · Python · HLSL · JavaScript · PowerShell · Inno Setup · HTML</sub><br/>
         <br/>
-        <a href="https://github.com/lxmtuu/KeyFlow"><img src="https://img.shields.io/badge/View_Source-7B9EFF?style=for-the-badge&logo=github&logoColor=white"/></a>
+        <a href="https://github.com/lxmtuu/PianoPath"><img src="https://img.shields.io/badge/View_Source-7B9EFF?style=for-the-badge&logo=github&logoColor=white"/></a>
       </td>
       <td width="33%" align="center">
         <a href="https://github.com/lxmtuu/shopvn-ecommerce-fullstack">
