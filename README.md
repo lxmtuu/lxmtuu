@@ -136,14 +136,18 @@
 <br/>
 
 <!-- ========================================================================
-     WAKATIME CODING STATS (cần WakaTime username của bạn để kích hoạt)
+     WAKATIME CODING STATS
      ======================================================================== -->
 <details>
   <summary><b>📊 WakaTime Coding Stats</b></summary>
   <br/>
   <p align="center">
-    <em>Thêm WakaTime username của bạn vào đây để hiển thị thời gian code theo ngôn ngữ.</em><br/>
-    Liên hệ admin để cập nhật.
+    <a href="https://wakatime.com/@5908a739-21fe-4d77-9bbc-e36215edc052">
+      <img src="https://img.shields.io/badge/WakaTime-5908a739-21fe-4d77-9bbc-e36215edc052?style=for-the-badge&logo=wakatime&logoColor=white&color=00BFFF"/>
+    </a>
+  </p>
+  <p align="center">
+    Thống kê thời gian code theo ngôn ngữ & dự án (cập nhật hàng tuần trên WakaTime).
   </p>
 </details>
 
