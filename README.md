@@ -3,14 +3,14 @@
 <!-- ========================================================================
      HERO BANNER
      ======================================================================== -->
-<img src="https://raw.githubusercontent.com/lxmtuu/lxmtuu/arena/8616ef60-lxmtuu/assets/profile-banner.jpg" alt="Yami — Fullstack Developer" width="100%" />
+<img src="./assets/profile-banner.jpg" alt="Yami — Fullstack Developer" width="100%" />
 
 <!-- ========================================================================
      ANIMATED TYPING (màu xanh banner)
      ======================================================================== -->
 <p>
   <a href="https://github.com/lxmtuu">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=5500&pause=700&color=00BFFF&center=true&v=true&width=860&lines=Fullstack+Developer+%2F+Software+Engineer;+Love+piano+and+cat;+Working+from+Dalat+city%2C+Vietnam;+Open+to+collaboration" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=5500&pause=700&color=00BFFF&center=true&vCenter=true&width=860&lines=Fullstack+Developer+%2F+Software+Engineer;Love+piano+and+cat;Working+from+Dalat+city%2C+Vietnam;Open+to+collaboration" alt="Typing SVG" />
   </a>
 </p>
 
@@ -92,7 +92,7 @@
     <tr>
       <td width="50%" align="left">
         <b>🔭 Working on</b><br/>
-        Fullstack web applications & music platforms
+        Fullstack web applications &amp; music platforms
       </td>
       <td width="50%" align="left">
         <b>🌱 Learning</b><br/>
@@ -106,7 +106,7 @@
       </td>
       <td width="50%" align="left">
         <b>💬 Ask me about</b><br/>
-        C# / .NET · Next.js · Express · PostgreSQL · Piano VFX
+        C# / .NET · Next.js · Express · PostgreSQL · SQLite · Piano VFX
       </td>
     </tr>
   </table>
@@ -128,7 +128,7 @@
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=lxmtuu&theme=dark&border_radius=6&background=0F172A&ring=7B9EFF&fire=A78BFA&currStreakNum=ffffff&currStreakLabel=A78BFA&sideNum=ffffff&sideLabel=ffffff&dates=ffffff" alt="Streak stats"/>
+      <img src="https://streak-stats.demolab.com/?user=lxmtuu&theme=dark&border_radius=6&background=0F172A&ring=7B9EFF&fire=A78BFA&currStreakNum=ffffff&currStreakLabel=A78BFA&sideNum=ffffff&sideLabel=ffffff&dates=ffffff" alt="Streak stats"/>
     </td>
   </tr>
 </table>
@@ -161,7 +161,7 @@
   <summary><b>🛠 Tech Stack</b></summary>
   <br/>
   <p align="center">
-    <img src="https://skillicons.dev/icons?i=cs,dotnet,py,powershell,js,ts,html,css,react,nextjs,nodejs,express,postgres,prisma,mongodb,tailwind,git,github,figma,vscode&perline=10" alt="Tech stack icons"/>
+    <img src="https://skillicons.dev/icons?i=cs,dotnet,py,powershell,js,ts,html,css,react,nextjs,nodejs,express,postgres,sqlite,prisma,mongodb,tailwind,docker,git,github,figma,vscode&perline=11" alt="Tech stack icons"/>
   </p>
   <br/>
   <table>
@@ -170,14 +170,14 @@
       <td align="center"><b>Frontend</b></td>
       <td align="center"><b>Backend</b></td>
       <td align="center"><b>Database</b></td>
-      <td align="center"><b>Scripting &amp; Tools</b></td>
+      <td align="center"><b>DevOps &amp; Tools</b></td>
     </tr>
     <tr>
       <td align="center">C# · .NET 10 · WPF · Direct3D 11 · HLSL</td>
-      <td align="center">React · Next.js · Tailwind CSS · JavaScript · TypeScript · HTML5 · CSS3</td>
-      <td align="center">Node.js · Express · REST API · Prisma</td>
-      <td align="center">PostgreSQL · MongoDB</td>
-      <td align="center">Python · PowerShell · Inno Setup · Git · GitHub · Figma · VS Code</td>
+      <td align="center">React 19 · Next.js 15 · Tailwind CSS v4 · JavaScript · TypeScript · HTML5 · CSS3</td>
+      <td align="center">Node.js · Express 5 · REST API · Prisma · Zod · VietQR</td>
+      <td align="center">PostgreSQL · SQLite · MongoDB</td>
+      <td align="center">Docker · Python · PowerShell · Inno Setup · Git · GitHub · Figma · VS Code</td>
     </tr>
   </table>
 </details>
@@ -197,8 +197,8 @@
         <b>Fullstack &amp; Desktop Developer · Freelance / Personal Projects</b><br/>
         Vietnam (Remote)<br/>
         • Designed and developed desktop &amp; fullstack web applications from concept to deployment<br/>
-        • Built Keyflow (desktop piano performance &amp; concert VFX studio with Direct3D 11 GPU shaders), web-based MIDI piano platforms, hotel booking systems, and music instrument e-commerce sites<br/>
-        • Tech stack: C#, .NET 10, WPF, HLSL, Python, PowerShell, Next.js, Express, PostgreSQL, Prisma, JavaScript, TypeScript
+        • Built <b>KeyFlow</b> (desktop piano performance &amp; concert VFX studio with Direct3D 11 GPU shaders), <b>ShopVN</b> (fullstack e-commerce with Next.js 15, Express 5, PostgreSQL &amp; automated VietQR webhook reconciliation), <b>LakStay Đà Lạt</b> (boutique hotel booking system with anti-overbooking concurrency ledger, dynamic pricing, VietQR EMVCo &amp; PDF A4 vouchers), and web MIDI piano platforms<br/>
+        • Tech stack: C#, .NET 10, WPF, HLSL, Next.js 15, React 19, Express, PostgreSQL, SQLite, Prisma, Docker, TypeScript, JavaScript, Python, PowerShell
       </td>
     </tr>
   </table>
@@ -216,43 +216,46 @@
   <table>
     <tr>
       <td width="33%" align="center">
-        <a href="https://github.com/lxmtuu/PianoPath">
-          <img src="https://raw.githubusercontent.com/lxmtuu/lxmtuu/arena/8616ef60-lxmtuu/assets/project-keyflow.jpg" alt="KeyFlow preview" width="100%"/>
+        <a href="https://github.com/lxmtuu/KeyFlow">
+          <img src="./assets/project-keyflow.jpg" alt="KeyFlow preview" width="100%"/>
         </a>
         <br/><br/>
         <b>🎹 KeyFlow (PianoPath)</b><br/>
-        <sub>Keyflow · Piano Performance &amp; Concert VFX Studio</sub><br/>
-        <sub>C# · Python · HLSL · JavaScript · PowerShell · Inno Setup · HTML</sub><br/>
+        <sub>Piano Performance &amp; Concert VFX Studio</sub><br/>
+        <sub>C# · .NET 10 · HLSL · Python · PowerShell · Inno Setup · HTML</sub><br/>
         <br/>
-        <a href="https://github.com/lxmtuu/PianoPath"><img src="https://img.shields.io/badge/View_Source-7B9EFF?style=for-the-badge&logo=github&logoColor=white"/></a>
+        <a href="http://ymkeyflow.online/"><img src="https://img.shields.io/badge/Website-00BFFF?style=for-the-badge&logo=google-chrome&logoColor=white"/></a>
+        <a href="https://github.com/lxmtuu/KeyFlow"><img src="https://img.shields.io/badge/Releases-7B9EFF?style=for-the-badge&logo=github&logoColor=white"/></a>
       </td>
       <td width="33%" align="center">
         <a href="https://github.com/lxmtuu/shopvn-ecommerce-fullstack">
-          <img src="https://raw.githubusercontent.com/lxmtuu/lxmtuu/arena/8616ef60-lxmtuu/assets/project-shopvn.jpg" alt="ShopVN preview" width="100%"/>
+          <img src="./assets/project-shopvn.jpg" alt="ShopVN preview" width="100%"/>
         </a>
         <br/><br/>
         <b>🛒 shopvn-ecommerce-fullstack</b><br/>
-        <sub>ShopVN — Fullstack E-commerce</sub><br/>
-        <sub>Next.js · Express · PostgreSQL · Prisma · TypeScript</sub><br/>
+        <sub>ShopVN — Fullstack E-commerce &amp; VietQR Auto-Confirm</sub><br/>
+        <sub>Next.js 15 · React 19 · Express 5 · PostgreSQL · Prisma · Tailwind v4 · TypeScript · Docker</sub><br/>
         <br/>
-        <a href="https://github.com/lxmtuu/shopvn-ecommerce-fullstack"><img src="https://img.shields.io/badge/View_Source-7B9EFF?style=for-the-badge&logo=github&logoColor=white"/></a>
+        <a href="https://shopvn-demo-seven.vercel.app"><img src="https://img.shields.io/badge/Live_Demo-00BFFF?style=for-the-badge&logo=vercel&logoColor=white"/></a>
+        <a href="https://github.com/lxmtuu/shopvn-ecommerce-fullstack"><img src="https://img.shields.io/badge/Source-7B9EFF?style=for-the-badge&logo=github&logoColor=white"/></a>
       </td>
       <td width="33%" align="center">
         <a href="https://github.com/lxmtuu/lakstay">
-          <img src="https://raw.githubusercontent.com/lxmtuu/lxmtuu/arena/8616ef60-lxmtuu/assets/project-lakstay.jpg" alt="lakstay preview" width="100%"/>
+          <img src="./assets/project-lakstay.jpg" alt="LakStay Đà Lạt preview" width="100%"/>
         </a>
         <br/><br/>
         <b>🏨 lakstay</b><br/>
-        <sub>Hotel Booking System</sub><br/>
-        <sub>JavaScript · Fullstack</sub><br/>
+        <sub>LakStay Đà Lạt — Fullstack Hotel Booking System</sub><br/>
+        <sub>Node.js · Express · SQLite · JavaScript · VietQR EMVCo · PDFKit · Zod · Docker</sub><br/>
         <br/>
-        <a href="https://github.com/lxmtuu/lakstay"><img src="https://img.shields.io/badge/View_Source-7B9EFF?style=for-the-badge&logo=github&logoColor=white"/></a>
+        <a href="https://lakstay-demo.vercel.app"><img src="https://img.shields.io/badge/Live_Demo-00BFFF?style=for-the-badge&logo=vercel&logoColor=white"/></a>
+        <a href="https://github.com/lxmtuu/lakstay"><img src="https://img.shields.io/badge/Source-7B9EFF?style=for-the-badge&logo=github&logoColor=white"/></a>
       </td>
     </tr>
     <tr>
       <td width="33%" align="center">
         <a href="https://github.com/lxmtuu/melody-house-protect">
-          <img src="https://raw.githubusercontent.com/lxmtuu/lxmtuu/arena/8616ef60-lxmtuu/assets/project-melody-house.jpg" alt="Melody House preview" width="100%"/>
+          <img src="./assets/project-melody-house.jpg" alt="Melody House preview" width="100%"/>
         </a>
         <br/><br/>
         <b>🎹 melody-house-protect</b><br/>
@@ -263,7 +266,7 @@
       </td>
       <td width="33%" align="center">
         <a href="https://github.com/lxmtuu/sakura-music">
-          <img src="https://raw.githubusercontent.com/lxmtuu/lxmtuu/arena/8616ef60-lxmtuu/assets/project-sakura.jpg" alt="sakura-music preview" width="100%"/>
+          <img src="./assets/project-sakura.jpg" alt="sakura-music preview" width="100%"/>
         </a>
         <br/><br/>
         <b>🌸 sakura-music</b><br/>
@@ -274,7 +277,7 @@
       </td>
       <td width="33%" align="center">
         <a href="https://github.com/lxmtuu/miku-portfolio">
-          <img src="https://raw.githubusercontent.com/lxmtuu/lxmtuu/arena/8616ef60-lxmtuu/assets/project-miku.png" alt="miku-portfolio preview" width="100%"/>
+          <img src="./assets/project-miku.png" alt="miku-portfolio preview" width="100%"/>
         </a>
         <br/><br/>
         <b>🖼 miku-portfolio</b><br/>
@@ -323,7 +326,7 @@
      CONTACT
      ======================================================================== -->
 <details>
-  <summary><b>📬 Contact & Support</b></summary>
+  <summary><b>📬 Contact &amp; Support</b></summary>
   <br/>
   <table>
     <tr>
@@ -371,10 +374,6 @@
 <p align="center">
   <b>Thanks for visiting my profile!</b> ✨<br/>
   Open to collaboration or just want to talk about dev and piano — feel free to reach out.
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=lxmtuu&show_icons=true&theme=dark&hide_rank=false&title_color=7B9EFF&icon_color=A78BFA&text_color=ffffff&bg_color=0F172A" alt="lxmtuu's GitHub stats"/>
 </p>
 
 </div>
