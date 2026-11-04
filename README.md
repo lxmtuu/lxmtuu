@@ -7,17 +7,17 @@
 
 <br/>
 
-<!-- nameplate: gradient wordmark + handle chip + gradient rule (drawn, not a font hack) -->
-<img src="./assets/nameplate.png" alt="Yami — lxmtuu · fullstack developer" width="72%" />
+<!-- nameplate: gradient wordmark + gradient rule (drawn, not a font hack) -->
+<img src="./assets/nameplate.png" alt="Yami" width="42%" />
 
 <!-- animated typing -->
 <p>
   <a href="https://github.com/lxmtuu">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=5500&pause=700&color=00BFFF&center=true&vCenter=true&width=860&lines=Fullstack+Developer+%2F+Software+Engineer;Love+piano+and+cat;Working+from+Dalat+city%2C+Vietnam;Open+to+collaboration" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=5500&pause=700&color=00BFFF&center=true&vCenter=true&width=620&height=42&lines=Fullstack+Developer+%2F+Software+Engineer;Love+piano+and+cat;Working+from+Dalat+city%2C+Vietnam;Open+to+collaboration" alt="Typing SVG" />
   </a>
 </p>
 
-<sub>Đà Lạt, Vietnam &nbsp;·&nbsp; piano, cats &amp; MIDI &nbsp;·&nbsp; the occasional GPU shader</sub>
+<sub>Đà Lạt, Vietnam &nbsp;·&nbsp; piano, cats &amp; MIDI</sub>
 
 <br/><br/>
 
