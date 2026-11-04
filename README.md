@@ -5,6 +5,11 @@
      ======================================================================== -->
 <img src="./assets/profile-banner.jpg" alt="Yami — banner" width="100%" />
 
+<br/>
+
+<!-- nameplate: gradient wordmark + handle chip + gradient rule (drawn, not a font hack) -->
+<img src="./assets/nameplate.png" alt="Yami — lxmtuu · fullstack developer" width="72%" />
+
 <!-- animated typing -->
 <p>
   <a href="https://github.com/lxmtuu">
@@ -12,13 +17,9 @@
   </a>
 </p>
 
-<h1>Yami &nbsp;<sub><code>lxmtuu</code></sub></h1>
+<sub>Đà Lạt, Vietnam &nbsp;·&nbsp; piano, cats &amp; MIDI &nbsp;·&nbsp; the occasional GPU shader</sub>
 
-Fullstack Developer &nbsp;·&nbsp; Software Engineer &nbsp;·&nbsp; Đà Lạt, Vietnam
-<br/>
-<sub>piano, cats &amp; MIDI — the occasional GPU shader</sub>
-
-<br/>
+<br/><br/>
 
 <a href="http://lxmtuu.id.vn/">Website</a> &nbsp;·&nbsp;
 <a href="https://github.com/lxmtuu?tab=repositories">GitHub</a> &nbsp;·&nbsp;
@@ -28,7 +29,7 @@ Fullstack Developer &nbsp;·&nbsp; Software Engineer &nbsp;·&nbsp; Đà Lạt, 
 <a href="https://www.youtube.com/@eirlys_neyu">YouTube</a> &nbsp;·&nbsp;
 <a href="mailto:lexuanminhtufw@gmail.com">Email</a>
 
-<br/><br/>
+<br/>
 
 <img src="https://komarev.com/ghpvc/?username=lxmtuu&label=profile+views&color=00BFFF&style=flat-square&labelColor=0F172A" alt="Profile views"/>
 
