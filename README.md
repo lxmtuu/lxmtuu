@@ -34,9 +34,7 @@ Fullstack Developer &nbsp;·&nbsp; Software Engineer &nbsp;·&nbsp; Đà Lạt, 
 
 </div>
 
-<br/>
-
----
+<p align="center"><img src="./assets/divider.png" alt="" width="55%"/></p>
 
 <!-- ========================================================================
      ABOUT
@@ -74,7 +72,7 @@ Most of what I make ends up revolving around music: players, piano visualisers, 
 
 <br/>
 
----
+<p align="center"><img src="./assets/divider.png" alt="" width="55%"/></p>
 
 <!-- ========================================================================
      NOW
@@ -90,7 +88,7 @@ Most of what I make ends up revolving around music: players, piano visualisers, 
 
 <br/>
 
----
+<p align="center"><img src="./assets/divider.png" alt="" width="55%"/></p>
 
 <!-- ========================================================================
      PROJECTS — images carry the weight, text is quiet
@@ -102,21 +100,25 @@ Most of what I make ends up revolving around music: players, piano visualisers, 
 
 <br/><br/>
 
-<!-- Mimi & KeyFlow -->
 <table>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="./assets/divider.png" alt="" width="100%"/>
+    </td>
+  </tr>
   <tr>
     <td width="50%" align="center" valign="top">
       <a href="https://github.com/lxmtuu/Mimi">
         <img src="./assets/project-mimi.jpg" alt="Mimi — music player for Windows" width="100%"/>
       </a>
       <br/><br/>
-      <b>Mimi</b> &nbsp;<sub><code>v0.7.0</code></sub>
+      <b>Mimi</b> &nbsp;<sub>· music player for Windows</sub>
       <br/>
-      <sub>Music player for Windows — offline-first, word-by-word lyrics,<br/>a fullscreen Stage. No account, no telemetry.</sub>
+      <sub>Offline-first · word-by-word lyrics · fullscreen Stage<br/>No account, no telemetry</sub>
       <br/><br/>
-      <sub>C# · .NET 8 · WPF · NAudio · SQLite FTS5</sub>
+      <sub><code>C#</code> <code>.NET 8</code> <code>WPF</code> <code>NAudio</code></sub>
       <br/><br/>
-      <a href="https://github.com/lxmtuu/Mimi/releases/latest">Download</a> &nbsp;·&nbsp;
+      <a href="https://github.com/lxmtuu/Mimi/releases/latest">↓ Download v0.7.0</a> &nbsp;·&nbsp;
       <a href="https://github.com/lxmtuu/Mimi">Source</a>
     </td>
     <td width="50%" align="center" valign="top">
@@ -124,14 +126,14 @@ Most of what I make ends up revolving around music: players, piano visualisers, 
         <img src="./assets/project-keyflow.jpg" alt="KeyFlow — piano performance and concert VFX" width="100%"/>
       </a>
       <br/><br/>
-      <b>KeyFlow</b> &nbsp;<sub><code>v2.2.0</code></sub>
+      <b>KeyFlow</b> &nbsp;<sub>· piano performance &amp; concert VFX</sub>
       <br/>
-      <sub>Piano performance &amp; concert VFX studio — real-time note rendering,<br/>Direct3D 11 shaders, MIDI-driven visuals.</sub>
+      <sub>Real-time note rendering · Direct3D 11 shaders<br/>MIDI-driven visuals, its own release channel</sub>
       <br/><br/>
-      <sub>C# · .NET 10 · WPF · HLSL · Direct3D 11</sub>
+      <sub><code>C#</code> <code>.NET 10</code> <code>WPF</code> <code>HLSL</code></sub>
       <br/><br/>
       <a href="http://ymkeyflow.online/">Website</a> &nbsp;·&nbsp;
-      <a href="https://github.com/lxmtuu/KeyFlow/releases/latest">Download</a> &nbsp;·&nbsp;
+      <a href="https://github.com/lxmtuu/KeyFlow/releases/latest">↓ Download v2.2.0</a> &nbsp;·&nbsp;
       <a href="https://github.com/lxmtuu/PianoPath">Source</a>
     </td>
   </tr>
@@ -139,8 +141,12 @@ Most of what I make ends up revolving around music: players, piano visualisers, 
 
 <br/>
 
-<!-- Web work -->
 <table>
+  <tr>
+    <td colspan="3" align="center">
+      <img src="./assets/divider.png" alt="" width="100%"/>
+    </td>
+  </tr>
   <tr>
     <td width="33%" align="center" valign="top">
       <a href="https://github.com/lxmtuu/shopvn-ecommerce-fullstack">
@@ -149,9 +155,9 @@ Most of what I make ends up revolving around music: players, piano visualisers, 
       <br/><br/>
       <b>ShopVN</b>
       <br/>
-      <sub>Fullstack e-commerce with automated VietQR reconciliation.</sub>
+      <sub>Fullstack e-commerce with automated VietQR reconciliation</sub>
       <br/><br/>
-      <sub>Next.js 15 · Express 5 · PostgreSQL · Prisma</sub>
+      <sub><code>Next.js 15</code> <code>Express 5</code> <code>PostgreSQL</code></sub>
       <br/><br/>
       <a href="https://shopvn-demo-seven.vercel.app">Demo</a> &nbsp;·&nbsp;
       <a href="https://github.com/lxmtuu/shopvn-ecommerce-fullstack">Source</a>
@@ -163,9 +169,9 @@ Most of what I make ends up revolving around music: players, piano visualisers, 
       <br/><br/>
       <b>LakStay Đà Lạt</b>
       <br/>
-      <sub>Boutique hotel booking — anti-overbooking ledger, VietQR, PDF vouchers.</sub>
+      <sub>Boutique hotel booking — anti-overbooking ledger, VietQR, PDF vouchers</sub>
       <br/><br/>
-      <sub>Node.js · Express · SQLite · VietQR EMVCo</sub>
+      <sub><code>Node.js</code> <code>Express</code> <code>SQLite</code></sub>
       <br/><br/>
       <a href="https://lakstay-demo.vercel.app">Demo</a> &nbsp;·&nbsp;
       <a href="https://github.com/lxmtuu/lakstay">Source</a>
@@ -177,66 +183,57 @@ Most of what I make ends up revolving around music: players, piano visualisers, 
       <br/><br/>
       <b>Melody House</b>
       <br/>
-      <sub>Fullstack web MIDI piano platform with a real-time audio workstation UI.</sub>
+      <sub>Fullstack web MIDI piano platform with a real-time audio workstation UI</sub>
       <br/><br/>
-      <sub>React · Express · Prisma · SQLite</sub>
+      <sub><code>React</code> <code>Express</code> <code>Prisma</code></sub>
       <br/><br/>
       <a href="https://github.com/lxmtuu/melody-house-protect">Source</a>
     </td>
   </tr>
   <tr>
-    <td width="50%" align="center" valign="top">
-      <br/>
+    <td width="33%" align="center" valign="top">
       <a href="https://github.com/lxmtuu/sakura-music">
         <img src="./assets/project-sakura.jpg" alt="Sakura Music Shop — instrument store" width="100%"/>
       </a>
       <br/><br/>
       <b>Sakura Music Shop</b>
       <br/>
-      <sub>Instrument store front end — catalogue, filters, cart.</sub>
+      <sub>Instrument store front end — catalogue, filters, cart</sub>
       <br/><br/>
-      <sub>Node.js · JavaScript · HTML · CSS</sub>
+      <sub><code>Node.js</code> <code>JavaScript</code> <code>CSS</code></sub>
       <br/><br/>
       <a href="https://sakura-music-preview.vercel.app">Demo</a> &nbsp;·&nbsp;
       <a href="https://github.com/lxmtuu/sakura-music">Source</a>
     </td>
-    <td width="50%" align="center" valign="top">
-      <br/>
+    <td width="33%" align="center" valign="top">
       <a href="https://github.com/lxmtuu/miku-portfolio">
         <img src="./assets/project-miku.jpg" alt="miku-portfolio — personal portfolio site" width="100%"/>
       </a>
       <br/><br/>
       <b>miku-portfolio</b>
       <br/>
-      <sub>Personal portfolio site — hand-built, no framework.</sub>
+      <sub>Personal portfolio site — hand-built, no framework</sub>
       <br/><br/>
-      <sub>HTML · CSS · JavaScript</sub>
+      <sub><code>HTML</code> <code>CSS</code> <code>JavaScript</code></sub>
       <br/><br/>
       <a href="https://github.com/lxmtuu/miku-portfolio">Source</a>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <sub>▸ &nbsp;More on GitHub</sub>
+      <br/><br/>
+      <sub>
+        <a href="https://github.com/lxmtuu/KeyFlow-Website">KeyFlow-Website</a><br/>
+        <a href="https://github.com/lxmtuu/Anistream">Anistream</a><br/>
+        <a href="https://github.com/lxmtuu/BrumeHotel">BrumeHotel</a><br/>
+        <a href="https://github.com/lxmtuu/Umaru">Umaru</a>
+      </sub>
+      <br/><br/>
+      <sub><a href="https://github.com/lxmtuu?tab=repositories">13 more →</a></sub>
     </td>
   </tr>
 </table>
 
 <br/>
-
-<p align="center">
-  <sub>
-    Also on GitHub:
-    <a href="https://github.com/lxmtuu/KeyFlow-Website">KeyFlow-Website</a> ·
-    <a href="https://github.com/lxmtuu/Anistream">Anistream</a> ·
-    <a href="https://github.com/lxmtuu/BrumeHotel">BrumeHotel</a> ·
-    <a href="https://github.com/lxmtuu/Umaru">Umaru</a> ·
-    <a href="https://github.com/lxmtuu?tab=repositories">13 more →</a>
-  </sub>
-</p>
-
-<br/>
-
----
-
-<!-- ========================================================================
-     STACK
-     ======================================================================== -->
 
 ## 🛠 Stack
 
@@ -275,7 +272,7 @@ Most of what I make ends up revolving around music: players, piano visualisers, 
 
 <br/>
 
----
+<p align="center"><img src="./assets/divider.png" alt="" width="55%"/></p>
 
 <!-- ========================================================================
      EXPERIENCE
@@ -283,20 +280,30 @@ Most of what I make ends up revolving around music: players, piano visualisers, 
 
 ## 💼 Experience
 
-**Fullstack &amp; Desktop Developer** &nbsp;·&nbsp; <sub>Freelance / personal projects &nbsp;·&nbsp; 2024 – Present &nbsp;·&nbsp; Vietnam, remote</sub>
-
-<br/><br/>
-
-- Ship desktop and fullstack products end to end — concept, build, installer, CI, docs.
-- **Mimi** — offline-first Windows music player: WASAPI playback, word-by-word Enhanced LRC,
-  SQLite FTS5 search that ignores Vietnamese diacritics, beat-reactive fullscreen Stage.
-- **KeyFlow** — piano performance and concert VFX studio on Direct3D 11, with its own release channel.
-- **ShopVN** — e-commerce on Next.js 15 and Express 5, VietQR webhooks reconciling orders automatically.
-- **LakStay Đà Lạt** — hotel booking with an anti-overbooking concurrency ledger and PDF A4 vouchers.
+<table>
+  <tr>
+    <td align="left" width="22%" valign="top">
+      <b>2024 – Present</b><br/>
+      <sub>Freelance / personal</sub>
+    </td>
+    <td align="left" valign="top">
+      <b>Fullstack &amp; Desktop Developer</b> &nbsp;<sub>· Vietnam, remote</sub>
+      <br/><br/>
+      <sub>
+        ▸ &nbsp;Ship desktop and fullstack products end to end — concept, build, installer, CI, docs<br/>
+        ▸ &nbsp;<b>Mimi</b> — offline-first Windows music player: WASAPI playback, word-by-word Enhanced LRC,
+        SQLite FTS5 search that ignores Vietnamese diacritics, beat-reactive fullscreen Stage<br/>
+        ▸ &nbsp;<b>KeyFlow</b> — piano performance and concert VFX studio on Direct3D 11, with its own release channel<br/>
+        ▸ &nbsp;<b>ShopVN</b> — e-commerce on Next.js 15 and Express 5, VietQR webhooks reconciling orders automatically<br/>
+        ▸ &nbsp;<b>LakStay Đà Lạt</b> — hotel booking with an anti-overbooking concurrency ledger and PDF A4 vouchers
+      </sub>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
----
+<p align="center"><img src="./assets/divider.png" alt="" width="55%"/></p>
 
 <!-- ========================================================================
      STATS — one block, quiet
@@ -319,13 +326,19 @@ Most of what I make ends up revolving around music: players, piano visualisers, 
 
 <br/>
 
----
+<p align="center"><img src="./assets/divider.png" alt="" width="55%"/></p>
 
 <!-- ========================================================================
      ACHIEVEMENTS + CONTACT
      ======================================================================== -->
 
 ## 🏆 Achievements
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=lxmtuu&theme=onedark&row=1&column=4&no-frame=true&no-bg=true&margin-w=10&margin-h=10" alt="GitHub trophies"/>
+</p>
+
+<br/>
 
 <div align="center">
   <a href="https://github.com/lxmtuu?achievement=quickdraw&tab=achievements"><img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" width="60" alt="Quickdraw"/></a>
@@ -339,11 +352,11 @@ Most of what I make ends up revolving around music: players, piano visualisers, 
 
 <br/>
 
----
-
-<div align="center">
+<p align="center"><img src="./assets/divider.png" alt="" width="55%"/></p>
 
 ## 📬 Say hello
+
+<div align="center">
 
 <a href="mailto:lexuanminhtufw@gmail.com">lexuanminhtufw@gmail.com</a>
 
@@ -359,5 +372,10 @@ Most of what I make ends up revolving around music: players, piano visualisers, 
 <br/><br/>
 
 <sub>Open to collaboration — or just want to talk about dev and piano.</sub>
+
+<br/><br/>
+
+<img src="https://img.shields.io/github/stars/lxmtuu/Mimi?style=social" alt="Mimi stars"/>
+<img src="https://img.shields.io/github/stars/lxmtuu/PianoPath?style=social" alt="KeyFlow stars"/>
 
 </div>
