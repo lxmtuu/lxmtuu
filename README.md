@@ -7,8 +7,8 @@
 
 <br/>
 
-<!-- nameplate: gradient wordmark + gradient rule (drawn, not a font hack) -->
-<img src="./assets/nameplate.png" alt="Yami" width="42%" />
+<!-- wordmark: gradient 'Yami' + gradient rule (drawn) — new filename to bust GitHub image cache -->
+<img src="./assets/mimi-wordmark.png" alt="Yami" width="42%" />
 
 <!-- animated typing -->
 <p>
