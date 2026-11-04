@@ -5,13 +5,20 @@
      ======================================================================== -->
 <img src="./assets/profile-banner.jpg" alt="Yami — banner" width="100%" />
 
-<h1>Yami</h1>
+<!-- animated typing -->
+<p>
+  <a href="https://github.com/lxmtuu">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=5500&pause=700&color=00BFFF&center=true&vCenter=true&width=860&lines=Fullstack+Developer+%2F+Software+Engineer;Love+piano+and+cat;Working+from+Dalat+city%2C+Vietnam;Open+to+collaboration" alt="Typing SVG" />
+  </a>
+</p>
 
-<b>Fullstack Developer &nbsp;·&nbsp; Software Engineer</b>
+<h1>Yami &nbsp;<sub><code>lxmtuu</code></sub></h1>
+
+Fullstack Developer &nbsp;·&nbsp; Software Engineer &nbsp;·&nbsp; Đà Lạt, Vietnam
 <br/>
-<sub><code>lxmtuu</code> &nbsp;·&nbsp; Đà Lạt, Vietnam &nbsp;·&nbsp; piano, cats &amp; MIDI</sub>
+<sub>piano, cats &amp; MIDI — the occasional GPU shader</sub>
 
-<br/><br/>
+<br/>
 
 <a href="http://lxmtuu.id.vn/">Website</a> &nbsp;·&nbsp;
 <a href="https://github.com/lxmtuu?tab=repositories">GitHub</a> &nbsp;·&nbsp;
