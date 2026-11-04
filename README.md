@@ -166,14 +166,14 @@
   <br/>
   <table>
     <tr>
-      <td align="center"><b>Desktop &amp; Graphics</b></td>
+      <td align="center"><b>Desktop &amp; Audio</b></td>
       <td align="center"><b>Frontend</b></td>
       <td align="center"><b>Backend</b></td>
       <td align="center"><b>Database</b></td>
       <td align="center"><b>DevOps &amp; Tools</b></td>
     </tr>
     <tr>
-      <td align="center">C# · .NET 10 · WPF · Direct3D 11 · HLSL</td>
+      <td align="center">C# · .NET 8 / .NET 10 · WPF · NAudio / WASAPI · Direct3D 11 · HLSL</td>
       <td align="center">React 19 · Next.js 15 · Tailwind CSS v4 · JavaScript · TypeScript · HTML5 · CSS3</td>
       <td align="center">Node.js · Express 5 · REST API · Prisma · Zod · VietQR</td>
       <td align="center">PostgreSQL · SQLite · MongoDB</td>
@@ -197,8 +197,8 @@
         <b>Fullstack &amp; Desktop Developer · Freelance / Personal Projects</b><br/>
         Vietnam (Remote)<br/>
         • Designed and developed desktop &amp; fullstack web applications from concept to deployment<br/>
-        • Built <b>KeyFlow</b> (desktop piano performance &amp; concert VFX studio with Direct3D 11 GPU shaders), <b>ShopVN</b> (fullstack e-commerce with Next.js 15, Express 5, PostgreSQL &amp; automated VietQR webhook reconciliation), <b>LakStay Đà Lạt</b> (boutique hotel booking system with anti-overbooking concurrency ledger, dynamic pricing, VietQR EMVCo &amp; PDF A4 vouchers), and web MIDI piano platforms<br/>
-        • Tech stack: C#, .NET 10, WPF, HLSL, Next.js 15, React 19, Express, PostgreSQL, SQLite, Prisma, Docker, TypeScript, JavaScript, Python, PowerShell
+        • Built <b>Mimi</b> (offline-first Windows music player with NAudio/WASAPI playback, word-by-word Enhanced LRC lyrics, SQLite FTS5 diacritic-insensitive search, a fullscreen beat-reactive Stage and four themes), <b>KeyFlow</b> (desktop piano performance &amp; concert VFX studio with Direct3D 11 GPU shaders), <b>ShopVN</b> (fullstack e-commerce with Next.js 15, Express 5, PostgreSQL &amp; automated VietQR webhook reconciliation), <b>LakStay Đà Lạt</b> (boutique hotel booking system with anti-overbooking concurrency ledger, dynamic pricing, VietQR EMVCo &amp; PDF A4 vouchers), and web MIDI piano platforms<br/>
+        • Tech stack: C#, .NET 8 / .NET 10, WPF, NAudio, HLSL, Next.js 15, React 19, Express, PostgreSQL, SQLite, Prisma, Docker, TypeScript, JavaScript, Python, PowerShell
       </td>
     </tr>
   </table>
@@ -215,17 +215,37 @@
 
   <table>
     <tr>
+      <td width="100%" align="center">
+        <a href="https://github.com/lxmtuu/Mimi">
+          <img src="./assets/project-mimi.jpg" alt="Mimi — Windows music player preview" width="100%"/>
+        </a>
+        <br/><br/>
+        <b>🎵 Mimi</b> <sub>· Windows 10 / 11 · x64 · MIT</sub><br/>
+        <sub>Offline-first music player — word-by-word lyrics, fullscreen Stage, four themes, three online sources. No account, no telemetry.</sub><br/>
+        <sub>C# · .NET 8 · WPF · NAudio · SQLite FTS5 · TagLib · Inno Setup</sub><br/>
+        <br/>
+        <a href="https://github.com/lxmtuu/Mimi/releases/latest"><img src="https://img.shields.io/badge/Download_v0.7.0-00BFFF?style=for-the-badge&logo=windows&logoColor=white"/></a>
+        <a href="https://github.com/lxmtuu/Mimi"><img src="https://img.shields.io/badge/Source-7B9EFF?style=for-the-badge&logo=github&logoColor=white"/></a>
+      </td>
+    </tr>
+  </table>
+
+  <br/>
+
+  <table>
+    <tr>
       <td width="33%" align="center">
-        <a href="https://github.com/lxmtuu/KeyFlow">
+        <a href="https://github.com/lxmtuu/PianoPath">
           <img src="./assets/project-keyflow.jpg" alt="KeyFlow preview" width="100%"/>
         </a>
         <br/><br/>
         <b>🎹 KeyFlow (PianoPath)</b><br/>
         <sub>Piano Performance &amp; Concert VFX Studio</sub><br/>
-        <sub>C# · .NET 10 · HLSL · Python · PowerShell · Inno Setup · HTML</sub><br/>
+        <sub>C# · .NET 10 · WPF · HLSL · Python · PowerShell · Inno Setup</sub><br/>
         <br/>
         <a href="http://ymkeyflow.online/"><img src="https://img.shields.io/badge/Website-00BFFF?style=for-the-badge&logo=google-chrome&logoColor=white"/></a>
-        <a href="https://github.com/lxmtuu/KeyFlow"><img src="https://img.shields.io/badge/Releases-7B9EFF?style=for-the-badge&logo=github&logoColor=white"/></a>
+        <a href="https://github.com/lxmtuu/KeyFlow/releases/latest"><img src="https://img.shields.io/badge/Download_v2.2.0-7B9EFF?style=for-the-badge&logo=windows&logoColor=white"/></a>
+        <a href="https://github.com/lxmtuu/PianoPath"><img src="https://img.shields.io/badge/Source-A78BFA?style=for-the-badge&logo=github&logoColor=white"/></a>
       </td>
       <td width="33%" align="center">
         <a href="https://github.com/lxmtuu/shopvn-ecommerce-fullstack">
@@ -259,8 +279,8 @@
         </a>
         <br/><br/>
         <b>🎹 melody-house-protect</b><br/>
-        <sub>Fullstack Web MIDI Piano Platform</sub><br/>
-        <sub>JavaScript</sub><br/>
+        <sub>Melody House — Fullstack Web MIDI Piano Platform</sub><br/>
+        <sub>React · Express · Prisma · SQLite · Tailwind CSS · TypeScript</sub><br/>
         <br/>
         <a href="https://github.com/lxmtuu/melody-house-protect"><img src="https://img.shields.io/badge/View_Source-7B9EFF?style=for-the-badge&logo=github&logoColor=white"/></a>
       </td>
@@ -270,9 +290,10 @@
         </a>
         <br/><br/>
         <b>🌸 sakura-music</b><br/>
-        <sub>Instrument Shop Website</sub><br/>
-        <sub>JavaScript · E-commerce UI</sub><br/>
+        <sub>Sakura Music Shop — Instrument Shop Website</sub><br/>
+        <sub>Node.js · JavaScript · HTML · CSS</sub><br/>
         <br/>
+        <a href="https://sakura-music-preview.vercel.app"><img src="https://img.shields.io/badge/Live_Demo-00BFFF?style=for-the-badge&logo=vercel&logoColor=white"/></a>
         <a href="https://github.com/lxmtuu/sakura-music"><img src="https://img.shields.io/badge/View_Source-7B9EFF?style=for-the-badge&logo=github&logoColor=white"/></a>
       </td>
       <td width="33%" align="center">
@@ -281,8 +302,8 @@
         </a>
         <br/><br/>
         <b>🖼 miku-portfolio</b><br/>
-        <sub>Portfolio Website</sub><br/>
-        <sub>JavaScript</sub><br/>
+        <sub>Personal Portfolio Website</sub><br/>
+        <sub>HTML · CSS · JavaScript</sub><br/>
         <br/>
         <a href="https://github.com/lxmtuu/miku-portfolio"><img src="https://img.shields.io/badge/View_Source-7B9EFF?style=for-the-badge&logo=github&logoColor=white"/></a>
       </td>
