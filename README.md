@@ -43,8 +43,9 @@
 
 ## 👋 About
 
-I build things end to end — desktop apps in **C# / .NET** and fullstack web products.
-Most of what I make ends up revolving around music: players, piano visualisers, MIDI tools.
+I build things end to end — desktop apps in **C# / .NET**, fullstack web products,
+and lately AI tooling I actually want to use. Most of it ends up revolving around music
+or around making the machine do the boring part.
 
 <br/>
 
@@ -59,7 +60,7 @@ Most of what I make ends up revolving around music: players, piano visualisers, 
   </tr>
   <tr>
     <td align="left">💻 &nbsp;<b>Focus</b></td>
-    <td align="left">Desktop apps · fullstack web · audio &amp; MIDI</td>
+    <td align="left">Desktop apps · fullstack web · AI agents · audio &amp; MIDI</td>
   </tr>
   <tr>
     <td align="left">🤝 &nbsp;<b>Open to</b></td>
@@ -81,11 +82,11 @@ Most of what I make ends up revolving around music: players, piano visualisers, 
 
 ## 🌱 Now
 
-**Building** &nbsp;—&nbsp; **Mimi** *(v0.7.0 shipped)*, **KeyFlow**, and fullstack web products
+**Building** &nbsp;—&nbsp; **Forge-Agent** *(v0.38.0 — the project I am living in right now)*, **Mimi**, **KeyFlow**
 <br/>
 **Learning** &nbsp;—&nbsp; system design, DevOps, TypeScript deep dive
 <br/>
-**Ask me about** &nbsp;—&nbsp; C# / .NET, Next.js, Express, PostgreSQL, SQLite, piano VFX
+**Ask me about** &nbsp;—&nbsp; C# / .NET, Next.js, Express, LLM agents &amp; MCP, SQLite, piano VFX
 
 <br/>
 
@@ -97,10 +98,11 @@ Most of what I make ends up revolving around music: players, piano visualisers, 
 
 ## 🚀 Selected work
 
-<sub>Six things I am happy with — the rest lives <a href="https://github.com/lxmtuu?tab=repositories">on GitHub</a>.</sub>
+<sub>A few things I am happy with — the rest lives <a href="https://github.com/lxmtuu?tab=repositories">on GitHub</a>.</sub>
 
 <br/><br/>
 
+<!-- ── flagship tier: Forge · Mimi ───────────────────────────────────── -->
 <table>
   <tr>
     <td colspan="2" align="center">
@@ -108,6 +110,20 @@ Most of what I make ends up revolving around music: players, piano visualisers, 
     </td>
   </tr>
   <tr>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/lxmtuu/Forge-Agent">
+        <img src="./assets/project-forge.jpg" alt="Forge-Agent — self-hosted AI coding workspace" width="100%"/>
+      </a>
+      <br/><br/>
+      <b>Forge-Agent</b> &nbsp;<sub>· self-hosted AI coding workspace</sub>
+      <br/>
+      <sub>Web, terminal and CLI on one local engine — read &amp; edit code,<br/>run tools, compare models, keep your workspace</sub>
+      <br/><br/>
+      <sub><code>Python</code> <code>React</code> <code>TypeScript</code> <code>OpenRouter</code> <code>MCP</code></sub>
+      <br/><br/>
+      <a href="https://github.com/lxmtuu/Forge-Agent/releases/latest">↓ Download v0.38.0</a> &nbsp;·&nbsp;
+      <a href="https://github.com/lxmtuu/Forge-Agent">Source</a>
+    </td>
     <td width="50%" align="center" valign="top">
       <a href="https://github.com/lxmtuu/Mimi">
         <img src="./assets/project-mimi.jpg" alt="Mimi — music player for Windows" width="100%"/>
@@ -122,26 +138,12 @@ Most of what I make ends up revolving around music: players, piano visualisers, 
       <a href="https://github.com/lxmtuu/Mimi/releases/latest">↓ Download v0.7.0</a> &nbsp;·&nbsp;
       <a href="https://github.com/lxmtuu/Mimi">Source</a>
     </td>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/lxmtuu/PianoPath">
-        <img src="./assets/project-keyflow.jpg" alt="KeyFlow — piano performance and concert VFX" width="100%"/>
-      </a>
-      <br/><br/>
-      <b>KeyFlow</b> &nbsp;<sub>· piano performance &amp; concert VFX</sub>
-      <br/>
-      <sub>Real-time note rendering · Direct3D 11 shaders<br/>MIDI-driven visuals, its own release channel</sub>
-      <br/><br/>
-      <sub><code>C#</code> <code>.NET 10</code> <code>WPF</code> <code>HLSL</code></sub>
-      <br/><br/>
-      <a href="http://ymkeyflow.online/">Website</a> &nbsp;·&nbsp;
-      <a href="https://github.com/lxmtuu/KeyFlow/releases/latest">↓ Download v2.2.0</a> &nbsp;·&nbsp;
-      <a href="https://github.com/lxmtuu/PianoPath">Source</a>
-    </td>
   </tr>
 </table>
 
 <br/>
 
+<!-- ── desktop & fullstack tier ─────────────────────────────────────── -->
 <table>
   <tr>
     <td colspan="3" align="center">
@@ -149,6 +151,21 @@ Most of what I make ends up revolving around music: players, piano visualisers, 
     </td>
   </tr>
   <tr>
+    <td width="33%" align="center" valign="top">
+      <a href="https://github.com/lxmtuu/PianoPath">
+        <img src="./assets/project-keyflow.jpg" alt="KeyFlow — piano performance and concert VFX" width="100%"/>
+      </a>
+      <br/><br/>
+      <b>KeyFlow</b>
+      <br/>
+      <sub>Piano performance &amp; concert VFX — real-time note rendering, Direct3D 11 shaders</sub>
+      <br/><br/>
+      <sub><code>C#</code> <code>.NET 10</code> <code>WPF</code> <code>HLSL</code></sub>
+      <br/><br/>
+      <a href="http://ymkeyflow.online/">Website</a> &nbsp;·&nbsp;
+      <a href="https://github.com/lxmtuu/KeyFlow/releases/latest">↓ v2.2.0</a> &nbsp;·&nbsp;
+      <a href="https://github.com/lxmtuu/PianoPath">Source</a>
+    </td>
     <td width="33%" align="center" valign="top">
       <a href="https://github.com/lxmtuu/shopvn-ecommerce-fullstack">
         <img src="./assets/project-shopvn.jpg" alt="ShopVN — fullstack e-commerce" width="100%"/>
@@ -177,6 +194,19 @@ Most of what I make ends up revolving around music: players, piano visualisers, 
       <a href="https://lakstay-demo.vercel.app">Demo</a> &nbsp;·&nbsp;
       <a href="https://github.com/lxmtuu/lakstay">Source</a>
     </td>
+  </tr>
+</table>
+
+<br/>
+
+<!-- ── web tier ─────────────────────────────────────────────────────── -->
+<table>
+  <tr>
+    <td colspan="3" align="center">
+      <img src="./assets/divider.png" alt="" width="100%"/>
+    </td>
+  </tr>
+  <tr>
     <td width="33%" align="center" valign="top">
       <a href="https://github.com/lxmtuu/melody-house-protect">
         <img src="./assets/project-melody-house.jpg" alt="Melody House — web MIDI piano platform" width="100%"/>
@@ -190,8 +220,6 @@ Most of what I make ends up revolving around music: players, piano visualisers, 
       <br/><br/>
       <a href="https://github.com/lxmtuu/melody-house-protect">Source</a>
     </td>
-  </tr>
-  <tr>
     <td width="33%" align="center" valign="top">
       <a href="https://github.com/lxmtuu/sakura-music">
         <img src="./assets/project-sakura.jpg" alt="Sakura Music Shop — instrument store" width="100%"/>
@@ -219,20 +247,21 @@ Most of what I make ends up revolving around music: players, piano visualisers, 
       <br/><br/>
       <a href="https://github.com/lxmtuu/miku-portfolio">Source</a>
     </td>
-    <td width="33%" align="center" valign="top">
-      <sub>▸ &nbsp;More on GitHub</sub>
-      <br/><br/>
-      <sub>
-        <a href="https://github.com/lxmtuu/KeyFlow-Website">KeyFlow-Website</a><br/>
-        <a href="https://github.com/lxmtuu/Anistream">Anistream</a><br/>
-        <a href="https://github.com/lxmtuu/BrumeHotel">BrumeHotel</a><br/>
-        <a href="https://github.com/lxmtuu/Umaru">Umaru</a>
-      </sub>
-      <br/><br/>
-      <sub><a href="https://github.com/lxmtuu?tab=repositories">13 more →</a></sub>
-    </td>
   </tr>
 </table>
+
+<br/>
+
+<p align="center">
+  <sub>
+    Also on GitHub:
+    <a href="https://github.com/lxmtuu/KeyFlow-Website">KeyFlow-Website</a> ·
+    <a href="https://github.com/lxmtuu/Anistream">Anistream</a> ·
+    <a href="https://github.com/lxmtuu/BrumeHotel">BrumeHotel</a> ·
+    <a href="https://github.com/lxmtuu/Umaru">Umaru</a> ·
+    <a href="https://github.com/lxmtuu?tab=repositories">13 more →</a>
+  </sub>
+</p>
 
 <br/>
 
@@ -266,6 +295,10 @@ Most of what I make ends up revolving around music: players, piano visualisers, 
     <td align="left">Docker · Git · GitHub Actions · Inno Setup · Python · PowerShell</td>
   </tr>
   <tr>
+    <td align="left">🤖 &nbsp;<b>AI &amp; agents</b></td>
+    <td align="left">OpenRouter · Gemini · OpenAI-compatible local models · MCP · agent skills</td>
+  </tr>
+  <tr>
     <td align="left">✏️ &nbsp;<b>Design</b></td>
     <td align="left">Figma · VS Code · docs-first development</td>
   </tr>
@@ -292,6 +325,8 @@ Most of what I make ends up revolving around music: players, piano visualisers, 
       <br/><br/>
       <sub>
         ▸ &nbsp;Ship desktop and fullstack products end to end — concept, build, installer, CI, docs<br/>
+        ▸ &nbsp;<b>Forge-Agent</b> — self-hosted AI coding workspace: Python engine with Web, terminal and CLI
+        interfaces, multi-model routing (OpenRouter, Gemini, local), MCP tools, guarded command execution<br/>
         ▸ &nbsp;<b>Mimi</b> — offline-first Windows music player: WASAPI playback, word-by-word Enhanced LRC,
         SQLite FTS5 search that ignores Vietnamese diacritics, beat-reactive fullscreen Stage<br/>
         ▸ &nbsp;<b>KeyFlow</b> — piano performance and concert VFX studio on Direct3D 11, with its own release channel<br/>
@@ -376,6 +411,7 @@ Most of what I make ends up revolving around music: players, piano visualisers, 
 
 <br/><br/>
 
+<img src="https://img.shields.io/github/stars/lxmtuu/Forge-Agent?style=social" alt="Forge-Agent stars"/>
 <img src="https://img.shields.io/github/stars/lxmtuu/Mimi?style=social" alt="Mimi stars"/>
 <img src="https://img.shields.io/github/stars/lxmtuu/PianoPath?style=social" alt="KeyFlow stars"/>
 
