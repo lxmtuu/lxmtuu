@@ -1,0 +1,56 @@
+# ============================================================================
+#  Contribution snake — Platane/snk
+#  Generates two SVGs from the public contribution graph and pushes them to
+#  the orphan `output` branch, where the README picks them up via raw URLs:
+#    https://raw.githubusercontent.com/lxmtuu/lxmtuu/output/snake.svg
+#    https://raw.githubusercontent.com/lxmtuu/lxmtuu/output/snake-dark.svg
+# ============================================================================
+
+name: Contribution snake
+
+on:
+  # refresh once a day (03:00 UTC ≈ 10:00 in Vietnam)
+  schedule:
+    - cron: "0 3 * * *"
+
+  # allow running it by hand from the Actions tab
+  workflow_dispatch:
+
+  # and whenever the generator itself changes
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/snake.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: snake
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Generate snake SVGs
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # colors mirror the README palette:
+          #   light → blue snake  #7B9EFF, light grey empty cells
+          #   dark  → violet snake #A78BFA, dark navy cells
+          outputs: |
+            dist/snake.svg?color_snake=%237B9EFF&color_dots=%23ebedf0,%23d9e2ff,%23b3c7ff,%238aa8ff,%237B9EFF
+            dist/snake-dark.svg?color_snake=%23A78BFA&color_dots=%23161b22,%23202a45,%2332446b,%234b64a8,%237B9EFF
+
+      - name: Push SVGs to the output branch
+        uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

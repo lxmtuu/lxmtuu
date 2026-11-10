@@ -365,6 +365,31 @@ or around making the machine do the boring part.
 <p align="center"><img src="./assets/divider.png" alt="" width="55%"/></p>
 
 <!-- ========================================================================
+     CONTRIBUTION SNAKE — built daily by .github/workflows/snake.yml,
+     the SVGs live on the orphan `output` branch
+     ======================================================================== -->
+
+## 🐍 Contributions
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lxmtuu/lxmtuu/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lxmtuu/lxmtuu/output/snake.svg" />
+  <img src="https://raw.githubusercontent.com/lxmtuu/lxmtuu/output/snake.svg" alt="Contribution snake — eating through the contribution graph" width="100%" />
+</picture>
+
+<br/><br/>
+
+<sub>Regenerated every day from the contribution graph.</sub>
+
+</div>
+
+<br/>
+
+<p align="center"><img src="./assets/divider.png" alt="" width="55%"/></p>
+
+<!-- ========================================================================
      ACHIEVEMENTS + CONTACT
      ======================================================================== -->
 
